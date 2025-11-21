@@ -8,4 +8,8 @@ def read_root():
 
 @app.get("/about")
 def about():
-    return {"project": "My First API", "author": "Your Name"}
+    return {"project": "My First API", "author": "Aayush Raj"}
+
+@app.get("/items")
+def items():
+    return {"laptop": "ColorFul","gpu": "RTX 4060"}
